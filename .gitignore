@@ -1,0 +1,25 @@
+(
+echo # Backend
+echo babyshop_products-backend/.env
+echo babyshop_products-backend/node_modules/
+echo babyshop_products-backend/console.log*
+echo.
+echo # Flutter 
+echo .dart_tool/
+echo .flutter-plugins
+echo .flutter-plugins-dependencies
+echo .packages
+echo build/
+echo android/
+echo ios/
+echo linux/
+echo macos/
+echo windows/
+echo web/
+echo test_app/
+echo *.iml
+echo *.ipr
+echo *.iws
+echo .idea/
+echo .DS_Store
+) > .gitignore
